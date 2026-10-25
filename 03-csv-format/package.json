@@ -1,0 +1,16 @@
+{
+  "name": "03-csv-format",
+  "version": "1.0.0",
+  "description": "Googleドライブに置いたCSVを整形してスプレッドシートに出力するGAS",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/local-test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@google/clasp": "^3.4.1"
+  }
+}
