@@ -1,12 +1,14 @@
+# 作業用の道具（GitHub CLI など）
+tools/
 # 依存パッケージ
 node_modules/
-# clasp の認証ファイル（絶対にコミットしない）
+# clasp の認証ファイル・個人のスクリプトID（絶対にコミットしない）
 .clasprc.json
-**/.clasprc.json
-# 個人のスクリプトID（公開不要）
 .clasp.json
 # その他の秘密情報
 *.pem
 .env
 creds.json
 client_secret*.json
+# Macが自動で作るファイル
+.DS_Store
