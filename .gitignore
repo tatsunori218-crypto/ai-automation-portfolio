@@ -12,3 +12,6 @@ creds.json
 client_secret*.json
 # Macが自動で作るファイル
 .DS_Store
+
+# 案件調査・応募文の下書き（サイト情報の複製・二次利用にあたるため公開しない）
+jobs/
