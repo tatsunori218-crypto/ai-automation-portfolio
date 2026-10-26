@@ -1,0 +1,19 @@
+{
+  "name": "06-inquiry-ai-triage",
+  "version": "1.0.0",
+  "description": "問い合わせをGemini APIで自動仕分けし、Gmailに返信の下書きを作るGAS",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/local-test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@google/clasp": "^3.4.1"
+  }
+}
