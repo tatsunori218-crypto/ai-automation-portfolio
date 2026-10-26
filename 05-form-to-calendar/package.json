@@ -1,0 +1,19 @@
+{
+  "name": "05-form-to-calendar",
+  "version": "1.0.0",
+  "description": "予約フォームの申し込みをGoogleカレンダーに自動登録するGAS（重なりは要確認）",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/local-test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@google/clasp": "^3.4.1"
+  }
+}

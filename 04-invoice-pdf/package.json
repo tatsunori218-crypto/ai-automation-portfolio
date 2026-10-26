@@ -1,0 +1,19 @@
+{
+  "name": "04-invoice-pdf",
+  "version": "1.0.0",
+  "description": "請求一覧から請求書PDFとGmailの下書きを自動作成するGAS",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/local-test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@google/clasp": "^3.4.1"
+  }
+}
